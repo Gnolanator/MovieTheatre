@@ -1,0 +1,8 @@
+create protobuf for movies
+write python grpc backend that will handle fetching from imdb api on movie upload
+  - given a url fetch the Title and MoviePoster and store information in mysql db
+
+write frontend-call for uploading a movie
+  - change gin api to call this grcp and return json of resulting call
+
+display results from gin api in react frontend
